@@ -18,7 +18,7 @@ html{
 }
 .navbar-brand img{
 	width: 130px;
-	margin-top: 20px;
+	margin-top: 60px;
 /* 	margin-left: 45px; */
 	justify-content: flex-start;
 }
@@ -43,6 +43,23 @@ html{
  .navbar-brand img{
     width: 100px;
     margin-top: 20px;
+  }
+
+ .navbar-nav a{
+    padding: 0px 10px;
+  }
+
+ .menu{
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) 
+{
+ .navbar-brand img{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
   }
 
  .navbar-nav a{
